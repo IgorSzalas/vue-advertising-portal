@@ -4,10 +4,12 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <header id="navbar">
-    <div
-      id="page-logo"
-      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Frootblog.pl%2Fyoutube-nowe-logo%2F&psig=AOvVaw1NC2T0fbkbgsw3JxQRDTnm&ust=1685643243627000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCSlceUoP8CFQAAAAAdAAAAABAJ"
-    ></div>
+    <RouterLink to="/">
+      <div
+        id="page-logo"
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Frootblog.pl%2Fyoutube-nowe-logo%2F&psig=AOvVaw1NC2T0fbkbgsw3JxQRDTnm&ust=1685643243627000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPCSlceUoP8CFQAAAAAdAAAAABAJ"
+      ></div>
+    </RouterLink>
     <nav id="links-container">
       <RouterLink class="links" to="/">Strona główna</RouterLink>
       <RouterLink class="links" to="/login">Zaloguj się</RouterLink>
